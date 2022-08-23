@@ -12,6 +12,8 @@ Questo progetto creato con React lavora con la API di Spacex.
 
 -React Icons
 
+-React Router Dom 6
+
 # Ringraziamento
 
 @carlosazaustre
