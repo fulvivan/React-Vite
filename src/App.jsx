@@ -3,7 +3,7 @@ import { LaunchList } from "./components/LaunchList";
 import { LaunchDetails } from "./components/LaunchDetail";
 import logo from "./assets/logo-spacex.png";
 import { Image } from "@chakra-ui/react";
-import { RocketDetails } from "./components/RocketDetails";
+
 
 export default function App() {
   return (
@@ -12,7 +12,6 @@ export default function App() {
       <Routes>
         <Route path="/" element={<LaunchList />} />
         <Route path="launch/:launchId" element={<LaunchDetails />} />
-        <Route path="rockets/:rocketId" element={<RocketDetails />} />
       </Routes>
     </>
   );
